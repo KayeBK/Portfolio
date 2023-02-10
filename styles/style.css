@@ -1,6 +1,13 @@
 /*font-family: 'Encode Sans', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 
+.hero {
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+}
 
 body {
     font-family: 'Roboto Mono', monospace;
