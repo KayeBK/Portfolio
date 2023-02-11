@@ -2,6 +2,7 @@
 font-family: 'Roboto Mono', monospace;
 #CBC3E3 light purp
 #BDB5D5 darker purp
+#9AC0CE blue
 #0b0b0b dark grey*/
 
 body {
@@ -29,6 +30,10 @@ h1 {
     color: #0b0b0b;
 }
 
+.btn-learn {
+    background-color: #9AC0CE;
+    color: white;
+}
 .links {
     text-decoration: none;
     color: black;
