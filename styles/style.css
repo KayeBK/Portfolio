@@ -1,21 +1,8 @@
 /*font-family: 'Encode Sans', sans-serif;
 font-family: 'Roboto Mono', monospace;
-#CBC3E3
-#BDB5D5 */
-
-.hero {
-    padding: 160px 50px 100px 60px;
-    text-align: center;
-    background-color: #BDB5D5;
-}
-
-.hero h1 {
-   padding: 45px;
-}
-
-.hero btn {
-    background-color: #CBC3E3;
-}
+#CBC3E3 light purp
+#BDB5D5 darker purp
+#0b0b0b dark grey*/
 
 body {
     font-family: 'Roboto Mono', monospace;
@@ -24,4 +11,25 @@ body {
 h1 {
     font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
+}
+
+.hero {
+    padding: 160px 50px 100px 60px;
+    text-align: center;
+    background-color: #0b0b0b;
+    color: white;
+}
+
+.hero h1 {
+   padding: 45px;
+}
+
+.btn-branding {
+    background-color: white;
+    color: #0b0b0b;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
 }
