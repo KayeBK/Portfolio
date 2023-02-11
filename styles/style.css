@@ -14,6 +14,10 @@ h1 {
     font-weight: bold;
 }
 
+.navbar {
+    background-color: rgba(255, 255, 255, .8);
+}
+
 .hero {
     padding: 160px 50px 100px 60px;
     text-align: center;
@@ -34,11 +38,14 @@ h1 {
     background-color: #9AC0CE;
     color: white;
 }
+
 .links {
     text-decoration: none;
     color: black;
 }
 
 .about-hero {
+    padding: 50px;
+    margin-top: 50px;
     text-align: center;
 }
