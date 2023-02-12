@@ -50,8 +50,16 @@ h1 {
     font-size: 24px;
 }
 
+.project-list {
+    padding: 160px 0px;
+}
+
 .links {
     text-decoration: none;
     color: #0b0b0b;
+}
+
+.learn-link {
+    color: black;
 }
 
