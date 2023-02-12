@@ -18,14 +18,14 @@ h1 {
     background-color: rgba(255, 255, 255, .8);
 }
 
-.hero {
-    padding: 160px 50px 100px 60px;
+.hero, .about-hero {
+    padding: 160px 50px 100px 50px;
     text-align: center;
     background-color: #0b0b0b;
     color: white;
 }
 
-.hero h1 {
+.hero h1, .about-hero h1 {
    padding: 45px;
 }
 
@@ -39,13 +39,19 @@ h1 {
     color: white;
 }
 
-.links {
-    text-decoration: none;
-    color: black;
+.about-description p {
+    padding: 50px;
+    font-size: 20px;
 }
 
-.about-hero {
-    padding: 50px;
-    margin-top: 50px;
+.about-description h2 {
     text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
 }
+
+.links {
+    text-decoration: none;
+    color: #0b0b0b;
+}
+
