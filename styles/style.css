@@ -76,6 +76,11 @@ h1 {
     color: #0b0b0b;
 }
 
+.link-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
 .learn-link {
     color: black;
 }
