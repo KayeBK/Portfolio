@@ -25,7 +25,14 @@ h1 {
     color: white;
 }
 
-.hero h1, .about-hero h1 {
+.project-hero {
+    text-align: center;
+    background-color:#0b0b0b;
+    color: white;
+    padding: 50px 50px 25px 50px;
+}
+
+.hero h1, .about-hero h1, .project-hero h1{
    padding: 45px;
 }
 
