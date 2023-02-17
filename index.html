@@ -39,7 +39,7 @@
         </div>
     </nav>
 
-    <div class="hero">
+    <div class="hero text-center overflow-hidden">
         <h3>Hello I am</h3>
         <h1>Kaly(Kaye) Kinser</h1>
         <p>Front-end developer based in TX, USA.</p>
@@ -48,9 +48,9 @@
         </a>
     </div>
 
-    <div class="d-flex justify-content-center p-5">Below are some samples of websites I have coded.</div>
+    <div class="text-center p-5 overflow-hidden">Below are some samples of websites I have coded:</div>
 
-    <div class="container projects">
+    <div class="container-fluid projects overflow-hidden">
         <div class="row p-5">
             <div class="col-lg-6 mb-5"><img src="images/stardew.png" class="img-fluid border border-dark border-2 rounded-1 p-2" alt="" /></div>
             <div class="col-lg-6 mb-5">
@@ -60,12 +60,12 @@
             </div>
         </div>
         <div class="row p-5">
-            <div class="col-lg-6 mb-5">
+            <div class="col-lg-6 mb-5 order-2 order-lg-1">
                 <h1>Weather Application</h1>
                 <p>Made during my SheCodes Plus workshops, an introduction to Bootstrap and JS ES6, also a deeper dive into HTML 5 and CSS 3.</p>
                 <a href="https://chimerical-bavarois-b03c0f.netlify.app/" class="btn btn-learn btn-sm p-3 mt-5" role="button">Learn more</a>
             </div>
-            <div class="col-lg-6 mb-5"><img src="images/weather.png" class="img-fluid border border-dark border-2 rounded-1 p-2" alt="" /></div>
+            <div class="col-lg-6 mb-5 order-1 order-lg-2"><img src="images/weather.png" class="img-fluid border border-dark border-2 rounded-1 p-2" alt="" /></div>
         </div>
         <div class="row p-5">
             <div class="col-lg-6 mb-5"><img src="images/portfolio.png" class="img-fluid border border-dark border-2 rounded-1 p-2" alt="" /></div>
@@ -77,11 +77,15 @@
         </div>
     </div>
 
-    <div class="d-flex justify-content-center">
-        <div class="p-4"><i class="fa-brands fa-github"></i><a class="links" href="https://github.com/KayeBK"> GitHub</a></div>
-        <div class="p-4"><i class="fa-solid fa-envelope"></i><a class="links" href="/contact.html"> Email</a></div>
-        <div class="p-4"><i class="fa-brands fa-linkedin"></i><a class="links" href="https://www.linkedin.com/in/kalykinser/"> LinkedIn</a></div>
+    <div class="container-fluid text-center mb-2">
+      <div class="row">
+        <div class="col-sm-4"><i class="fa-brands fa-github"></i><a class="links" href="https://github.com/KayeBK"> GitHub</a></div>
+        <div class="col-sm-4"><i class="fa-solid fa-envelope"></i><a class="links" href="/contact.html"> Email</a></div>
+        <div class="col-sm-4"><i class="fa-brands fa-linkedin"></i><a class="links" href="https://www.linkedin.com/in/kalykinser/"> LinkedIn</a></div>  
+      </div>
     </div>
-    <p class="link-footer">Coded by Kaye Kinser, open-sourced on <a href="https://github.com/KayeBK/Portfolio" title="link to project on GitHub">GitHub</a>.</p>
+
+    <div class="container-fluid text-center mb-3 link-footer">Coded by Kaye Kinser, open-sourced on <a href="https://github.com/KayeBK/Portfolio" title="link to project on GitHub">GitHub</a>.</div>
+
 </body>
 </html>
